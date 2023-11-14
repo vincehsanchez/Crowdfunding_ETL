@@ -46,15 +46,15 @@ A "category" column that contains only the category titles
 
 ### Create the Contacts DataFrame
 
-Option 2: Use regular expressions.
-Import the contacts.xlsx file into a DataFrame.
-Extract the "contact_id", "name", and "email" columns by using regular expressions.
-Create a new DataFrame with the extracted data.
-Convert the "contact_id" column to the integer type.
-Split each "name" column value into a first and a last name, and place each in a new column.
-Clean and then export the DataFrame as contacts.csv and save it to your GitHub repository.
-Check that your final DataFrame resembles the one in the following image:
-final contact DataFrame
+**Option 2: Use regular expressions**
+- Import the contacts.xlsx file into a DataFrame.
+- Extract the "contact_id", "name", and "email" columns by using regular expressions.
+- Create a new DataFrame with the extracted data.
+- Convert the "contact_id" column to the integer type.
+- Split each "name" column value into a first and a last name, and place each in a new column.
+- Clean and then export the DataFrame as contacts.csv and save it to your GitHub repository.
+- Check that your final DataFrame resembles the one in the following image:
+- final contact DataFrame
 
 ### Create the Crowdfunding Database
 
