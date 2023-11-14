@@ -41,7 +41,6 @@ A "category" column that contains only the category titles
 - The "subcategory_id" column, with the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
 <img width="1074" alt="campaign_DataFrame" src="https://github.com/vincehsanchez/Crowdfunding_ETL/assets/141890646/1a6e748b-9fb7-4406-9d2e-077d9048c064">
 
-
 2. Export the campaign DataFrame as campaign.csv and save it to your GitHub repository.
 
 ### Create the Contacts DataFrame
@@ -54,7 +53,7 @@ A "category" column that contains only the category titles
 - Split each "name" column value into a first and a last name, and place each in a new column.
 - Clean and then export the DataFrame as contacts.csv and save it to your GitHub repository.
 - Check that your final DataFrame resembles the one in the following image:
-- final contact DataFrame
+<img width="415" alt="contact_DataFrame_final" src="https://github.com/vincehsanchez/Crowdfunding_ETL/assets/141890646/4c8140aa-1b11-4cc4-9ebe-0f528d41fc69">
 
 ### Create the Crowdfunding Database
 
