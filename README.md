@@ -19,30 +19,28 @@ A "category" column that contains only the category titles
 - A "subcategory" column that contains only the subcategory titles
 <img width="250" alt="subcategory_DataFrame" src="https://github.com/vincehsanchez/Crowdfunding_ETL/assets/141890646/72d6f738-6fba-4002-be97-c03f240478ec">
 
-
-
 4. Export the subcategory DataFrame as subcategory.csv and save it to your!
  GitHub repository.
 
 ###Create the Campaign DataFrame
 
-Extract and transform the crowdfunding.xlsx Excel data to create a campaign DataFrame has the following columns:
-The "cf_id" column
-The "contact_id" column
-The "company_name" column
-The "blurb" column, renamed to "description"
-The "goal" column, converted to the float data type
-The "pledged" column, converted to the float data type
-The "outcome" column
-The "backers_count" column
-The "country" column
-The "currency" column
-The "launched_at" column, renamed to "launch_date" and with the UTC times converted to the datetime format
-The "deadline" column, renamed to "end_date" and with the UTC times converted to the datetime format
-The "category_id" column, with unique identification numbers matching those in the "category_id" column of the category DataFrame
-The "subcategory_id" column, with the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
-The following image shows this campaign DataFrame:
-campaign DataFrame
+1. Extract and transform the crowdfunding.xlsx Excel data to create a campaign DataFrame has the following columns:
+- The "cf_id" column
+- The "contact_id" column
+- The "company_name" column
+- The "blurb" column, renamed to "description"
+- The "goal" column, converted to the float data type
+- The "pledged" column, converted to the float data type
+- The "outcome" column
+- The "backers_count" column
+- The "country" column
+- The "currency" column
+- The "launched_at" column, renamed to "launch_date" and with the UTC times converted to the datetime format
+- The "deadline" column, renamed to "end_date" and with the UTC times converted to the datetime format
+- The "category_id" column, with unique identification numbers matching those in the "category_id" column of the category DataFrame
+- The "subcategory_id" column, with the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
+<img width="1074" alt="campaign_DataFrame" src="https://github.com/vincehsanchez/Crowdfunding_ETL/assets/141890646/1a6e748b-9fb7-4406-9d2e-077d9048c064">
+
 
 Export the campaign DataFrame as campaign.csv and save it to your GitHub repository.
 
